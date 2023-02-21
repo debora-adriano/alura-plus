@@ -6,6 +6,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter', 'sans-serif';
+    --botao-azul-novo: #19f7d2;
 }
 
 * {
@@ -56,6 +57,11 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+}
+
+.container__botao a:hover {
+    background-color: var(--botao-azul-novo);
+    color: var(--cor-de-fundo);
 }
 
 .botao__secundario {
