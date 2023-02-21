@@ -59,7 +59,7 @@ body {
     margin-bottom: 1em;
 }
 
-.container__botao a:hover {
+.container__botao:hover {
     background-color: var(--botao-azul-novo);
     color: var(--cor-de-fundo);
 }
